@@ -1,0 +1,61 @@
+.myaccount {
+    margin: 3% 15%;
+  display: flex;
+  flex-direction: column;
+}
+.myaccount hr {
+  width: 50%;
+}
+
+.myaccount-container{
+  display: flex;
+ 
+}
+.myaccount-left{
+
+  display: flex;
+  flex-direction: column;
+}
+.myaccount-right{
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  
+}
+
+
+.update-myaccount {
+  border: none;
+  width: 250px;
+  margin: 10px 0px;
+  padding: 10px;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+.logout-myAccount {
+  border: none;
+  width: 250px;
+  margin: 10px 0px;
+  padding: 10px;
+  background-color: rgb(148, 64, 64);
+  color: white;
+  font-weight: bold;
+}
+.myaccount label {
+  margin: 5px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  .myaccount{
+      margin: 10px;
+  }
+
+  .myaccount-right button, input{
+    width: 150px;
+    
+  }
+  
+}
+

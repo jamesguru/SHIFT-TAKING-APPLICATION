@@ -1,0 +1,43 @@
+.report{
+    margin: 5% 15%;
+    display: flex;
+    flex-direction: column;
+}
+.report-header{
+    color: #555;
+    font-size: 19px;
+    text-decoration: underline;
+}
+
+.report textarea{
+    margin: 20px 0px;
+    width: 50%;
+}
+.report label{
+    font-weight: 900;
+}
+.other-people{
+    display: flex;
+    flex-direction: column;
+}
+.report_btn{
+    background-color: rgb(24 92 175);
+    border: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 900;
+    width: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+    .report{
+        margin: 10px;
+    }
+    .report textarea{
+        margin: 20px 0px;
+        width: 80%;
+    }
+    
+  }

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AM SHIFTER Welcome</title>
+    <style type="text/css">
+        body{
+            margin:0;
+            padding: 0;
+            min-width:100%;
+            font-family: Arial,sans-serif;
+            font-size:16px;
+            line-height: 1.5;
+            background-color: #FAFAFA;
+            color:#222222;
+        }
+        a{
+            color:#000;
+            text-decoration: none;
+        }
+
+        h1{
+            font-size:24px;
+            font-weight:700;
+            line-height:1.25;
+            margin-top:0;
+            margin-bottom:15px;
+            text-align:center;
+        }
+
+        p{
+            margin-top: 0;
+            margin-bottom: 24px;
+        }
+        table td{
+            vertical-align: top;
+        }
+        .email-wrapper{
+            max-width:700px;
+            margin: 0 auto;
+        }
+        .email-header{
+            background-color: #185caf;
+            padding: 24px;
+            color: #fff;
+        }
+
+        .email-body{
+            padding:24px;
+            background-color: #f6f6f6;
+        }
+        .email-footer{
+            background-color: #f6f6f6;
+            padding: 24px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="email-wrapper">
+
+        <div class="email-header">
+            <h1>Welcome to AM SHIFTER</h1>
+        </div>
+        
+        <div class="email-body">
+        <p>Hello <%= fullname %>,</p>
+        <p>Your login credentials:</p>
+        <p>StaffID: <%= staffID %></p>
+        <p>Password: <%= password %></p>
+        
+        <p>To login go to: <a href="https://www.amshifter.com/login">https://www.amshifter.com/login</a></p>
+        
+        <h3>Note:</h3>
+
+        <p>Please find the attached document containing instructions to help you use the system.</p>
+        <p>Please Keep this credentials privately. Don't share with Anyone</p>
+        <p>If you did not register for a Attuned Pathways account, Please ignore this email</p>
+        </div>
+        <div class="email-footer">
+            <p>If you have any questions, please don't hesitate to contact us at <a href="mailto:attunedpathways@outlook.com">attunedpathways@outlook.com</a></a></p>
+        </div>
+    </div>    
+</body>
+</html>

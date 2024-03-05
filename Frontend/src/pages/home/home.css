@@ -1,0 +1,65 @@
+.wrapper {
+    display: flex;
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center;
+    margin: 3% auto;
+    height: auto; /* Adjust height as needed */
+}
+
+.phrase {
+    font-size: 30px;
+    font-weight: 900;
+    width: 70%;
+    text-align: start;
+}
+
+.desc {
+    flex: 1;
+    text-align: center;
+    color: #444;
+    margin: 0% 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.get-started {
+    background-color: rgb(24 92 175);
+    outline: none;
+    border: none;
+    padding: 15px;
+    color: #fff;
+    cursor: pointer;
+    width: 70%; /* Adjust width as needed */
+    font-weight: 900;
+    font-size: 15px;
+    margin: 20px 0px;
+}
+
+.gif {
+    flex: 1;
+    max-width: 100%; /* Ensure the image doesn't overflow its container */
+}
+
+.gif img {
+    height: auto; /* Maintain aspect ratio */
+    width: 100%;
+    object-fit: cover;
+}
+
+.blue-text {
+    color: rgb(24 92 175);
+}
+
+/* Responsive adjustments */
+@media only screen and (min-width: 768px) {
+    .wrapper {
+        flex-direction: row; /* Display items in a row on larger screens */
+    }
+    .phrase,
+    .desc,
+    .get-started,
+    .gif {
+        width: 50%;
+        /* Adjust widths for larger screens */
+    }
+}

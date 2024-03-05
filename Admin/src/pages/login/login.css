@@ -1,0 +1,39 @@
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.login-form{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15% ;
+}
+.login-form h2{
+    font-size: 35px;
+}
+
+.login-form input{
+    width: 20%;
+    padding: 15px;
+    font-size: 15px;
+    outline: none;
+    margin: 20px 0px;
+}
+
+.login-form button{
+    width: 350px;
+    background-color: teal;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-weight: 900;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.error{
+    color: red;
+}

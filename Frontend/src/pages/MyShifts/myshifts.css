@@ -1,0 +1,34 @@
+.myshifts{
+    margin: 3% 10%;
+
+}
+.myshifts_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.myshifts_header{
+    font-weight: 900;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+.myshifts_back{
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.userListEdit{
+    background-color: teal;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 5px;  
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .myshifts{
+        margin: 20px; 
+    }
+  }

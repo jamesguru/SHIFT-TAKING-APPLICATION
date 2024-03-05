@@ -1,0 +1,84 @@
+.announcement{
+    flex: 4;
+    margin: 3% 5%;
+}
+.announcement-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    color: #444;
+    font-size: 20px;
+}
+.annoucement-card{
+    height: 70px;
+    margin: 10px;
+    width: 100%;
+    background-color: #1dbf730f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.announcement-input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+.announcement-add{
+    margin-top: 10px;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+    cursor: pointer; 
+}
+
+.announcement-input input{
+    width: 50%;
+    padding: 15px;
+    margin: 20px 0px;
+}
+
+.announcement-input textarea{
+    width: 50%;
+    padding: 15px;
+    margin: 20px 0px;  
+}
+.announcement-input button{
+    margin-top: 10px;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.announcement-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin: 0px 30px;
+    font-weight: 900;
+    color: #948787;
+}
+
+.announcement-time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 30px;
+    color: #948787;
+}
+
+.delete{
+    color: red;
+    cursor: pointer;
+    margin: 0px 20px;
+}

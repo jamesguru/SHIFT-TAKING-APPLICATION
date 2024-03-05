@@ -1,0 +1,193 @@
+.shift{
+    margin: 3% 10%;
+    display: flex;  
+    height: 200%;
+}
+.shift_details{
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px;
+    height: auto;
+    background-color: #1dbf730f;
+}
+.shift_details ul{
+    list-style: none;
+}
+strong{
+    margin-right: 10px;
+}
+
+.shift_take_btn{
+    margin: 20px 0px;
+    width: 150px;
+    cursor: pointer;
+    font-weight: 900;
+    border: none;
+    color: #fff;
+    background-color: rgb(24 92 175);
+    padding: 10px;
+}
+
+.add_casenotes{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;  
+}
+.add_casenotes span{
+   
+    margin-right: 20px;
+}
+.add_casenotes_icon{
+    cursor: pointer;
+}
+
+.casenotes_inputs{
+    display: flex;
+    flex-direction: column;
+}
+.casenotes_inputs label{
+    font-weight: 900;
+}
+.casenotes_inputs button{
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(24 92 175);  
+    color: #fff;
+}
+
+.shift_casenotes{
+    flex: 1;
+}
+
+.shift_bid_btn{
+    background-color: rgb(24 92 175);
+    border: none;
+    color: white;
+    width: 100px;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 900;
+    margin: 10px 30px;
+}
+.shift_clockin_btn{
+    background-color: rgb(25, 185, 25);
+    border: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 900;
+    margin: 10px 30px;
+}
+
+.shift_clockout_btn{
+    background-color: rgb(241, 84, 84);
+    border: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 900;
+    margin: 10px 30px;
+}
+
+
+  .content {
+    flex: 1; /* Allow the content to expand and fill the available space */
+    padding: 20px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .button-container span{
+    font-weight: 900;
+    color: rgb(241, 84, 84);
+   
+  }
+
+.clockin_out{
+    display: flex;
+    justify-content: space-between;
+}
+
+.completed-shift-text{
+    margin: 0px 20px;
+    color: green;
+    font-weight: 900;
+}
+
+.shift_report_btn{
+    background-color: red;
+    border: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 900;
+  
+}
+
+.distance{
+
+display: flex;
+align-items: center;
+margin: 20px 0px;
+}
+.distance input{
+    width:70px;
+    margin: 0px 5px;
+}
+
+.distance span{
+    margin: 0px 5px;
+    color: #333;
+    font-size: 15px;
+
+}
+.distance button{
+    background-color: rgb(24 92 175);
+    border: none;
+    cursor: pointer;
+    color: #f0f0f0;
+    padding: 5px;
+    width: 70px;
+}
+
+.distance-update{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+    .shift{
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+    }
+    .shift_casenotes{
+       
+        padding: 30px 20px 100px 20px;
+    }
+
+    .shift_details{
+        
+        margin: 0px 20px;
+        
+    }
+  }

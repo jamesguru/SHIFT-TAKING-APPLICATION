@@ -1,0 +1,232 @@
+
+.staff{
+    margin: 5% 15%;
+}
+.stafftop{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.shift-header{
+    color: #555;
+   
+}
+.staff_shifts{
+    font-weight: 900;
+    
+    color: #555;
+}
+.staff_name{
+    font-weight: 900;
+    cursor: pointer;
+
+}
+
+.staff_profile{
+    position: relative;
+    width: 200px;
+}
+.staff_account{
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+    position: absolute;
+    top: -3;
+    background-color: rgb(97, 128, 167); 
+    color: #fff;
+    padding: 20px;    
+    margin-right: 20px;
+}
+
+.staff_account span{
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.staff_account span:hover{
+   color: #aaa;
+}
+.staff_main{
+    margin-top: 20px;
+}
+
+.profile_icon{
+    margin-right: 10px;
+}
+
+.staff_icon{
+    display: flex;
+    align-items: center;
+}
+
+.staff_main_card{
+
+    height: auto;
+    padding: 5px;
+    background-color: #1dbf730f;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border-left: 7px solid rgb(24 92 175);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.staff_main_card_none{
+    display: none;
+}
+
+.staff_main_card_unassigned{
+    height: auto;
+    padding: 5px;
+    background-color: #1dbf730f;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border-left: 7px solid #a5a5c6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.staff_main_card_date{
+    display: flex;
+    flex-direction: column;
+    margin:20px;
+    justify-content: center;
+    
+}
+.staff_main_card_date span{
+    font-weight: 900;
+    margin: 2px;
+    font-size: 22px;
+    color: rgb(118, 142, 172);
+    font-family: "Roboto";
+    width: 10%;
+}
+
+.staff_main_card_info{
+display: flex;
+flex-direction: column;
+    
+}
+
+.staff_main_card_info span:nth-child(1){
+
+    font-size: 18px;
+    font-weight: 900;
+
+}
+.staff_main_card_options{
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 20px;
+    cursor: pointer;
+    position: relative;
+}
+.staff_main_card_options_select{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    z-index: 999;
+    padding: 20px;
+    width: 150px;
+    position: absolute;
+    top: -5;
+}
+.staff_main_card_options_select span:hover{
+    color: #AAA;
+}
+
+.shift_status_ongoing{
+
+    color: red;
+    animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.shift_status{
+    font-weight: 900;
+    color: teal;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+table{
+    width: 100%;
+}
+tr{
+    height: 50px;
+    cursor: pointer;
+}
+tr:nth-child(even) {
+    background-color: #1dbf730f;
+  }
+
+  
+td{
+
+}
+th{
+    text-align: left;
+}
+.shift-location-time{
+    width: 250px;
+}
+
+.no-shifts{
+    margin: 20px 0px;
+    background-color: #1dbf730f;
+    padding: 20px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .staff{
+        margin: 20px;
+      
+    }
+
+    .staff_main_card{
+        width: auto;
+    }
+
+    .staff_main_card_date span{
+        font-weight: 900;
+        margin: 2px;
+        font-size: 15px;
+        color: rgb(118, 142, 172);
+        font-family: "Roboto";
+       
+    }
+
+    .staff_main_card_info{
+        width: 30%;
+        margin: 10px 0px;
+    }
+
+    .staff_main_card_info span:nth-child(1){
+
+        font-size: 13px;
+        font-weight: 900;
+    
+    }
+
+    .staff_main_card_info span:nth-child(2){
+
+        font-size: 12px;
+    
+    }
+
+    .shift-location-time{
+        width: 100px;
+    }
+    /* Add more responsive adjustments as needed */
+}
