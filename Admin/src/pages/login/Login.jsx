@@ -22,7 +22,7 @@ const Login = () => {
         });
         localStorage.setItem("staff", JSON.stringify(res.data));
         
-        if(res.data && res.data.role === 'admin'){
+        if(res.data){
           history.push("/home");
         }   
         setLoading(false);
